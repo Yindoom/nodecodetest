@@ -3,6 +3,9 @@ import { resolve } from "path";
 import { createServer } from "http";
 import app from "./app";
 
+/**
+ * creates https server, and gets environment file, with the port
+ */
 const server = createServer(app);
 
 config({ path: resolve(__dirname, "../.env") });

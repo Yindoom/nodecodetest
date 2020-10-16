@@ -1,6 +1,11 @@
 import { readFileSync } from "fs";
 import { name } from "./model/name";
 
+/**
+ * reads sortedNames file, splits into array of name interfaces
+ * finds name object that matches query, and returns it
+ * @param nameToFind 
+ */
 export function getNameCount(nameToFind: string) {
   const names = readFileSync("res/sortedNames.txt", "utf-8")
     .split("\n")
