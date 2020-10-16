@@ -1,5 +1,7 @@
 # nodecodetest
 
+First time working with Node for backend, usually I would have made a project like this in Python.
+
 Two scripts of importance:
 npm run parse, will compile and run the parse.ts file, running the name finder algorithm on Oliver Twist
 
