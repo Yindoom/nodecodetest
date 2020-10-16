@@ -1,0 +1,27 @@
+{
+  "name": "webuildbots",
+  "version": "1.0.0",
+  "description": "code test for wbb",
+  "main": "index.js",
+  "scripts": {
+    "parse": "tsc && node dist/txtparse/parse.js",
+    "dev": "tsc && nodemon dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bastian Bønkel",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/cors": "^2.8.8",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.8",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "typeorm": "^0.2.28"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
